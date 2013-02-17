@@ -1,6 +1,6 @@
 ﻿###winger's security toolkits
 
-  author 黄登winger[freelight]<br />
+  author 黄登 winger[freelight]<br />
   location https://github.com/freewinger/wsec_toolkit/<br />
   gtalk free.winger@gmail.com<br />
   gtalk-Group zen0code@appspot.com<br />
