@@ -1,15 +1,15 @@
-#!/usr/bin/newlisp
+ï»¿#!/usr/bin/newlisp
 #######################################################
-# @module svn scanner (svn É¨ÃèÆ÷)
-# @author »ÆµÇ(winger)
+# @module svn scanner (svn æ‰«æå™¨)
+# @author é»„ç™»(winger)
 # @version 0.1
 # @location https://github.com/freewinger/wsec_toolkit/
 # @gtalk free.winger@gmail.com
 # @gtalk-Group zen0code@appspot.com
 # @blog http://my.opera.com/freewinger/blog/
 # @qq-group 31138659
-# ´óµÀÖÁ¼ò -- newLISP
-# Copyright 2013 »ÆµÇ(winger) All rights reserved.
+# å¤§é“è‡³ç®€ -- newLISP
+# Copyright 2013 é»„ç™»(winger) All rights reserved.
 # Licensed under GNU GPL V3 
 ########################################################
 
@@ -49,7 +49,7 @@
 (set 'supermode (find "-sc" (main-args))) ;scan C network section 
 (set 'FID_R         (open fresult "append"))
 (set 'pcount 0)
-;;;!!!!!!!!!!!!!´Ë´¦¼ÇµÃÒ»¶¨ÒªÓĞ: ºÍ\r\n. ·ñÔò²»·ûºÏhttpÍ·±ê×¼!!!!! MUST END WITH "\r\n"
+;;;!!!!!!!!!!!!!æ­¤å¤„è®°å¾—ä¸€å®šè¦æœ‰: å’Œ\r\n. å¦åˆ™ä¸ç¬¦åˆhttpå¤´æ ‡å‡†!!!!! MUST END WITH "\r\n"
 (set 'AGENT  "User-AGENT:	Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.2.13) Gecko/20110504 Firefox/3.6.13\r\n")
 
 (set 'AGENT (or (get-arg  "-a") AGENT))
